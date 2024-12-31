@@ -1,0 +1,9 @@
+[package]
+name = "phalanxia/cryo"
+description = "A collection of methods for working with immutable data in a functional way for Roblox Lua. Mirrored from https://github.com/Roblox/cryo"
+version = "1.0.3"
+authors = ["Roblox", "Madison <inquiries@madi.pizza>"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+license = "MIT"
+exclude = ["spec.lua"]
