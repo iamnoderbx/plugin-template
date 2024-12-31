@@ -14,7 +14,7 @@
 
 </div>
 
-###Usage
+### Usage
 1. Use git bash to clone this repository `https://github.com/iamnoderbx/plugin-template`
 2. Install all the tools required to run the template with `aftman install`
 3. Install all the packages with `sh ./scripts/install-packages.sh`
