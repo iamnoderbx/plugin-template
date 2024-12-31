@@ -10,14 +10,11 @@ local ReactRoblox = require(script.Parent.Parent:WaitForChild('Packages'):WaitFo
 
 
 local PluginContext = require(script.Parent.Parent:WaitForChild('Contexts'):WaitForChild('PluginContext'))
-local GlobalMapRoute = require(script.Parent:WaitForChild('Map'):WaitForChild('GlobalMapRoute'))
 -------------------------------------------------------------
 
 
 local function RootPluginRoute(props: { plugin: Plugin })
-	return React.createElement(PluginContext.Provider, { value = props.plugin }, {
-		GlobalMapRoute = React.createElement(GlobalMapRoute),
-	})
+	return React.createElement(PluginContext.Provider, { value = props.plugin }, {})
 end
 
 -------------------------------------------------------------

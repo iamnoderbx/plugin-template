@@ -1,5 +1,5 @@
 {
-	"name": "plugin-template",
+	"name": "requiem-terrain",
 	"tree": {
 		"$path": "./src",
 		"Packages": {

@@ -10,4 +10,4 @@ fi
 rojo sourcemap default.project.json -o sourcemap.json
 
 ROBLOX_DEV=false darklua process --config .darklua.json src/ dist/
-rojo build build.project.json -o C:/Users/Matt/AppData/Local/Roblox/Plugins/plugin-template.rbxm
+rojo build build.project.json -o C:/Users/Matt/AppData/Local/Roblox/Plugins/requiem-terrain.rbxm
