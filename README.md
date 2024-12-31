@@ -21,4 +21,3 @@
 4. Open VS code and install the following extensions: Stylua, Selene, Roblox LSP
 5. Update your `build.sh` file to have your local plugin directory.
 6. Build the project executing `sh ./scripts/build.sh` in the main directory
-Enjoy!
